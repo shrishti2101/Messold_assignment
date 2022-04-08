@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    display: inline-block;
+    border: none;
+    padding-top:10%;
+    padding-left:5%;
+    
+}
+
+h1{
+    color:rgb(201, 182, 8);
+}
+
+.card:last-child{
+padding-top: 0;
+
+}
+
+.second{display: inline-table;
+}
+
+.last{
+   display:inline-table;
+   padding-top: 0 ;
+   padding-left: 25%;
+   
+}
+
+.vertical{
+    border-left: 2px solid black;
+    height:300px;
+    position: absolute;
+    display: flex;
+    right:20%;
+    top: 15%;
+    padding-left:2%;
+}
+
+button{
+    display:flex;
+    border-radius: 50%;
+    height:10%;
+    position: relative;
+    margin-left: 15%;
+    background:none;
+}
+
+.vertical:first,p{
+    display: block;
+    width:25px;
+}
+
+.info{
+    position: relative;
+    display: inline-block;
+    border: none;
+    padding-top:5%;
+    padding-left:5%;
+    width:20%;
+}
